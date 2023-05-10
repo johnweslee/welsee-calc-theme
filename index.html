@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href=".\images\calculator-favicon.png" type="image/x-icon">
+    <title>Themed Calculator</title>
+    <link rel="stylesheet" href=".\style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator dark" id="calculator">
+            <div class="toggleTheme" active>
+                <h2>Weslee calc</h2><i class="toggleIcon"></i>
+            </div>
+            <input type="text" class="calculatorDisplay" id="calculatorDisplay">
+            <div class="buttons" id="buttons">
+                <input type="button" class="operatorButton" id="operatorButton" value="AC" onclick="clearAllFunction()">
+                <input type="button" class="operatorButton" id="operatorButton" value="(" onclick="calculatorFunction('(')">
+                <input type="button" class="operatorButton" id="operatorButton" value=")" onclick="calculatorFunction(')')">
+                <input type="button" class="operatorButton" id="operatorButton" value="⌫" onclick="backspaceFunction()">
+                <br>
+                <input type="button" class="numberButton" id="numberButton" value="7" onclick="calculatorFunction('7')">
+                <input type="button" class="numberButton" id="numberButton" value="8" onclick="calculatorFunction('8')">
+                <input type="button" class="numberButton" id="numberButton" value="9" onclick="calculatorFunction('9')">
+                <input type="button" class="operatorButton" id="operatorButton" value="/" onclick="calculatorFunction('/')">
+                <br>
+                <input type="button" class="numberButton" id="numberButton" value="4" onclick="calculatorFunction('4')">
+                <input type="button" class="numberButton" id="numberButton" value="5" onclick="calculatorFunction('5')">
+                <input type="button" class="numberButton" id="numberButton" value="6" onclick="calculatorFunction('6')">
+                <input type="button" class="operatorButton" id="operatorButton" value="*" onclick="calculatorFunction('*')">
+                <br>
+                <input type="button" class="numberButton" id="numberButton" value="1" onclick="calculatorFunction('1')">
+                <input type="button" class="numberButton" id="numberButton" value="2" onclick="calculatorFunction('2')">
+                <input type="button" class="numberButton" id="numberButton" value="3" onclick="calculatorFunction('3')">
+                <input type="button" class="operatorButton" id="operatorButton" value="-" onclick="calculatorFunction('-')">
+                <br>
+                <input type="button" class="numberButton" id="numberButton" value="." onclick="calculatorFunction('.')">
+                <input type="button" class="numberButton" id="numberButton" value="0" onclick="calculatorFunction('0')">
+                <input type="button" class="operatorButton" id="operatorButton" value="=" onclick="resultFunction()">
+                <input type="button" class="operatorButton" id="operatorButton" value="+" onclick="calculatorFunction('+')">
+                <br>
+            </div>
+        </div>
+    </div>
+    <script src=".\calculator.js"></script>
+</body>
+
+</html>
