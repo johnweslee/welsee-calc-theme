@@ -24,7 +24,7 @@ body{
     width: auto;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 25px gray;
 }
 
 h2{
@@ -150,7 +150,7 @@ input[type='button']:hover{
 }
 
 
-.calculator #calculatorDisplay{
+.calculator.dark #calculatorDisplay{
     color: white;
     background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
 }
