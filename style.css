@@ -155,26 +155,26 @@ input[type='button']:hover{
     background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
 }
 
-.calculator input#clearAll{
+.calculator.dark input#clearAll{
     background-color: #DE3163;
 }
 
-.calculator input.bracketButton{
+.calculator.dark input.bracketButton{
     background-color: #50C878;
 }
 
-.calculator input#backspaceButton{
+.calculator.dark input#backspaceButton{
     background-color: #DE3163;
 }
 
-.calculator input.numberButton{
+.calculator.dark input.numberButton{
     background-color: #1560bd;
 }
 
-.calculator input.operatorButton{
+.calculator.dark input.operatorButton{
     background-color: #FA5F55;
 }
 
-.calculator input#decimal, input#equal{
+.calculator.dark input#decimal, input#equal{
     background-color: #50C878;
 }
